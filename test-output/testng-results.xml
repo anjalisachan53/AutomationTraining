@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T11:58:23 IST" name="Default suite" finished-at="2024-06-17T11:58:42 IST" duration-ms="18681">
+    <groups>
+    </groups>
+    <test started-at="2024-06-17T11:58:23 IST" name="Default test" finished-at="2024-06-17T11:58:42 IST" duration-ms="18681">
+      <class name="Test.FlipkartCareerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartCareerTest@5aceec94]" started-at="2024-06-17T11:58:23 IST" name="setUp" finished-at="2024-06-17T11:58:27 IST" duration-ms="4404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartCareerTest@5aceec94]" started-at="2024-06-17T11:58:27 IST" name="setup" finished-at="2024-06-17T11:58:28 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCareerLink()[pri:3, instance:Test.FlipkartCareerTest@5aceec94]" started-at="2024-06-17T11:58:28 IST" name="testCareerLink" finished-at="2024-06-17T11:58:41 IST" duration-ms="13382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCareerLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartCareerTest@5aceec94]" started-at="2024-06-17T11:58:41 IST" name="tearDown" finished-at="2024-06-17T11:58:42 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartCareerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
