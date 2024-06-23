@@ -19,14 +19,6 @@
           <include name="testCareerLink"/>
         </methods>
       </class> <!-- Test.FlipkartCareerTest -->
-      <class name="Test.SearchTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="searchPageTest" invocation-numbers="1 2 3"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Test.SearchTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

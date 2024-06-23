@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="searchPageTest" invocation-numbers="1 2 3"/>
+          <include name="searchPageTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- Test.SearchTest -->

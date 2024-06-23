@@ -23,12 +23,12 @@ public class FlipkartCareerTest extends BaseClass {
         System.setProperty("log4j.configurationFile", "log4j2.properties");
         ExtentReportManager.getInstance();
     }
+
     @Test(priority = 3, enabled = true)
     public void testCareerLink() throws InterruptedException {
         ExtentReportManager.createTest("testCareerLink");
         ExtentTest extentTest = ExtentReportManager.getTest();
 
-        System.setProperty("log4j.configurationFile", "log4j2.properties");
         FlipkartCareerPage flipkartCareerPage = new FlipkartCareerPage(driver);
         
         logger.info("User launches Chrome browser and navigates to the Flipkart homepage");
@@ -57,7 +57,6 @@ public class FlipkartCareerTest extends BaseClass {
             extentTest.addScreenCaptureFromPath(screenshotPath, "Screenshot after navigating to Career Page");
             driver.close();
             driver.quit();
-
           
         } catch (Exception e) {
             extentTest.fail("Not on the Flipkart Careers page: " + e.getMessage());

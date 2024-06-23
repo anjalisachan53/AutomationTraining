@@ -23,7 +23,7 @@ public class FlipkartCareerPage {
     }
 
     // Locate the Careers link
-    @FindBy(xpath = "//a[@href='https://www.flipkartcareers.com/?otracker=${otracker}_navlinks' and @aria-label='Careers']")
+    @FindBy(xpath = "//a[contains(@href, 'flipkartcareers.com') and @aria-label='Careers']")
     WebElement careersLink;
 
     // Scroll to the bottom of the page
@@ -41,6 +41,6 @@ public class FlipkartCareerPage {
     // Check if the current URL is the Flipkart Careers page
     public boolean isOnCareersPage() {
         String currentURL = driver.getCurrentUrl();
-        return currentURL.contains("https://www.flipkartcareers.com/?otracker=${otracker}_navlinks#!/");
+        return currentURL.contains("flipkartcareers.com");
     }
 }
